@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply lg:max-w-screen-lg mx-auto;
+}
+
+.section-title {
+  @apply bg-neutral border-t-indigo-950 border-b-slate-400 shadow-lg;
+}
+
+.active {
+  @apply bg-slate-800;
+}
+
+.react-tabs__tab:focus,
+.react-tabs__tab:focus-visible {
+  outline: none !important;
+  outline-width: 0px !important;
+}
+
+.react-tabs__tab--selected:focus,
+.react-tabs__tab--selected:focus-visible {
+  outline: none !important;
+  outline-width: 0px !important;
+}
+
+.react-tabs__tab--selected {
+  border-radius: 10px !important;
+  background: #00f3ff !important;
+}
+
+.menu.menu-horizontal li a.active{
+  background: darkcyan;
+}
